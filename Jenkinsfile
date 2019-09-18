@@ -29,7 +29,7 @@ node('master') {
 		emailext(
 			subject:'Jenkins Pipeline Success',
 			body:'Pipeline deployment is a success go check your dashboard for more info.',
-			reciepients:'barcared11@gmail.com'
+			to:'barcared11@gmail.com'
 			)
 	}
 }
